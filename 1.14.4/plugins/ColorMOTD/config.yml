@@ -1,0 +1,19 @@
+## ColorMOTD v1.5.3 Config
+# http://www.mcbbs.net/thread-448326-1-1.html
+Motd:
+- '&b欢迎来到梦幻方块服务器(可自行修改)\n&d现在时间: &e%DATE% %TIME%'
+- '&b欢迎来到梦幻方块服务器(可自行修改)\n&d在线人数: &e%ONLINE%'
+- '&b欢迎来到梦幻方块服务器(可自行修改)\n&d您的位置: &e%LOC%&d,服务商: &e%ISP%'
+OnlineMsg: '&a在线人数 &6%ONLINE%&7/&6%MAXPLAYER%'
+Players:
+- '&b梦幻方块服务器'
+- '&e梦幻方块服务器'
+- '&a%TIME%'
+ServiceModeMOTD: '&c服务器维护中,请等待维护完成...'
+ServiceModeKickCause: '&c服务器维护中,请等待维护完成再进入服务器!'
+useBungeeCord: false
+redisBungee: false
+AttributionServer: taobao
+TPSFormat: '0.0'
+showDelay: false
+UpdateChecker: true

@@ -1,0 +1,44 @@
+###########################################
+#          _  _______ _______ _____       #
+#        | |/ /_   _|__   __/ ____|       #
+#        | ' /  | |    | | | (___         #
+#        |  <   | |    | |  \___ \        #
+#        | . \ _| |_   | |  ____) |       #
+#        |_|\_\_____|  |_| |_____/        #
+#                                         #
+#          语言本地化:极光creeper         # 
+###########################################                           
+Kits:
+  test:
+    delay: 86400
+    helmet: diamond_helmet protection:1 name:&7极光&6的帽子
+    chestplate: diamond_helmet protection:1 name:&7极光&6的盔甲
+    leggings: diamond_leggings protection:1 name:&7极光&6的护腿
+    boots: diamond_boots protection:1 name:&7极光&6的鞋子
+    inventory:
+    - diamond_sword 1 sharpness:3 name:&7极光&6的EA大刀
+    - golden_apple:1 32
+  tools:
+    delay: 0
+    helmet: ''
+    chestplate: ''
+    leggings: ''
+    boots: ''
+    inventory:
+    - stone_sword 1 durability:1
+    - stone_pickaxe 1
+    - stone_axe 1
+    - stone_shovel 1
+    - bread 8
+  BoneStudio:
+    delay: 30
+    helmet: skull owner:BoneStudio
+    chestplate: leather_chestplate durability:9 name:⑨⑨⑨
+    leggings: leather_leggings durability:9
+    boots: leather_boots durability:9
+    inventory:
+    - 'kit: tools'
+    #虽然这个kit纯属恶搞 但是看到上面这个- 'kit: tools'了吗
+    #插件是支持一个kit里套另外一个kit的哟
+    - 'cmd: broadcast &6&l{player} 打开了BoneStudio小组  极光creeper 汉化的插件里的神秘kit!'
+    - golden_apple:1 64

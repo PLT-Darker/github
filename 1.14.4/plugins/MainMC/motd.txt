@@ -1,0 +1,6 @@
+&7Welcome to Farm Construction &e{player}
+&7Type &e/help &7for help list command
+&7Type &e/list &7for list of all online players
+&7Today is &e{day}/{month}/{year} &7and it is &e{time}
+&7In this server there are &e{onlineplayers} &7players online:
+&7{listallplayers}

@@ -1,0 +1,483 @@
+[00:38:43] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[00:38:43] [Server thread/INFO]: Loading properties
+[00:38:43] [Server thread/INFO]: This server is running Paper version git-Paper-146 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[00:38:43] [Server thread/INFO]: Debug logging is disabled
+[00:38:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:38:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:38:44] [Server thread/INFO]: Default game type: SURVIVAL
+[00:38:44] [Server thread/INFO]: Generating keypair
+[00:38:44] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[00:38:44] [Server thread/INFO]: Using default channel type
+[00:38:45] [Server thread/ERROR]: Ambiguous plugin name `ProtocolLib' for files `plugins\[前置]ProtocolLib.jar' and `plugins\[前置]ProtocolLib-4.4.0.jar' in `plugins'
+[00:38:52] [Server thread/WARN]: Plugin CoreProtect v2.14.2 does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin WorldEdit v6.1.9-SNAPSHOT;no_git_id does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin OneMore v1.0.0 does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin MCSign v1.0.0 does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin FCommand v1.0-SNAPSHOT does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin GrItemTags v1.0.8 does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin WorldGuard v6.2.2-SNAPSHOT;1710-95b88ea does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin Multiverse-Core v2.6.0-b738 does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin NotBoom v1.3 does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin iConomy v7.0.6 does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin ScoreboardPlus v10 does not specify an api-version.
+[00:38:53] [Server thread/WARN]: Plugin ColorMOTD v1.5.3 does not specify an api-version.
+[00:38:54] [Server thread/WARN]: Plugin PlayerPoints v2.1.5-SNAPSHOT does not specify an api-version.
+[00:38:54] [Server thread/WARN]: Plugin ChestCommands v3.1.1 does not specify an api-version.
+[00:38:54] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.14.2
+[00:38:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9-SNAPSHOT;no_git_id
+[00:38:54] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.9.2
+[00:38:54] [Server thread/INFO]: [OneMore] Loading OneMore v1.0.0
+[00:38:54] [Server thread/INFO]: [MCSign] Loading MCSign v1.0.0
+[00:38:54] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.0.6
+[00:38:54] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v1.9.8a
+[00:38:54] [Server thread/INFO]: [FCommand] Loading FCommand v1.0-SNAPSHOT
+[00:38:54] [Server thread/INFO]: [GrItemTags] Loading GrItemTags v1.0.8
+[00:38:54] [Server thread/INFO]: [ConsoleSpamFix] Loading ConsoleSpamFix v1.7.2
+[00:38:54] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[00:38:54] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;1710-95b88ea
+[00:38:54] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.0-SNAPSHOT
+[00:38:54] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.14.4) has not yet been tested! Proceed with caution.
+[00:38:55] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.6.0-b738
+[00:38:55] [Server thread/INFO]: [NotBoom] Loading NotBoom v1.3
+[00:38:55] [Server thread/INFO]: [iConomy] Loading iConomy v7.0.6
+[00:38:55] [Server thread/INFO]: [CatSeedLogin] Loading CatSeedLogin v1.0.0
+[00:38:55] [Server thread/INFO]: [CS-CoreLib] Loading CS-CoreLib vv1.6.1
+[00:38:55] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[00:38:55] [Server thread/INFO]: [ScoreboardPlus] Loading ScoreboardPlus v10
+[00:38:55] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v1.31.12
+[00:38:55] [Server thread/INFO]: [ColorMOTD] Loading ColorMOTD v1.5.3
+[00:38:55] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.3.1
+[00:38:55] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v2.1.5-SNAPSHOT
+[00:38:55] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.1
+[00:38:55] [Server thread/INFO]: [Residence] Loading Residence v4.8.6.6
+[00:38:55] [Server thread/INFO]: [JupiterCore] Loading JupiterCore v1.2.3
+[00:38:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:38:55] [Server thread/INFO]: [ConsoleSpamFix] Enabling ConsoleSpamFix v1.7.2
+[00:38:55] [Server thread/INFO]: [ConsoleSpamFix] Server version detected: 1.14.4
+[00:38:55] [Server thread/INFO]: [ConsoleSpamFix] Loading the config file...
+[00:38:55] [Server thread/INFO]: [ConsoleSpamFix] Config file loaded!
+[00:38:55] [Server thread/INFO]: [ConsoleSpamFix] ConsoleSpamFix loaded successfully!
+[00:38:55] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.0-SNAPSHOT
+[00:38:55] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[00:38:55] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[00:38:55] [Server thread/WARN]: [Vault] iConomy - If you are using Flatfile storage be aware that versions 6, 7 and 8 have a CRITICAL bug which can wipe ALL iconomy data.
+[00:38:55] [Server thread/WARN]: [Vault] if you're using Votifier, or any other plugin which handles economy data in a threaded manner your server is at risk!
+[00:38:55] [Server thread/WARN]: [Vault] it is highly suggested to use SQL with iCo6 or to use an alternative economy plugin!
+[00:38:55] [Server thread/INFO]: [Vault] [Economy] iConomy 6 found: Waiting
+[00:38:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:38:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[00:38:55] [Server thread/INFO]: [ColorMOTD] Enabling ColorMOTD v1.5.3*
+[00:38:55] [Server thread/INFO]: [ColorMOTD] ├使用 ProtocolLib 4.5.0-SNAPSHOT 作为前置
+[00:38:55] [Server thread/INFO]: [ColorMOTD] │├正在载入配置文件..
+[00:38:55] [Server thread/INFO]: [ColorMOTD] │├配置文件编码为UTF-8...
+[00:38:55] [Server thread/INFO]: [ColorMOTD] │├正在加载图标...
+[00:38:56] [Server thread/INFO]: [ColorMOTD] ││├成功加载图标"3.png"
+[00:38:56] [Server thread/INFO]: [ColorMOTD] ││├成功加载维护模式下的图标
+[00:38:56] [Server thread/INFO]: [ColorMOTD] │├载入成功
+[00:38:56] [Server thread/WARN]: [ColorMOTD] ├找不到Essentials,无法使用变量%TPS%和%STATE%!
+[00:38:56] [Server thread/INFO]: [ColorMOTD] ├正在注册MOTD监听器...
+[00:38:56] [Server thread/INFO]: ColorMOTD v1.5.3加载完成,用时372毫秒
+[00:38:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:38:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:38:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:38:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:38:56] [Server thread/INFO]: Preparing level "world"
+[00:38:56] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[00:38:57] [Server thread/INFO]: Loaded 6 recipes
+[00:38:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:38:58] [Server thread/INFO]: View Distance: 6
+[00:38:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:38:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:38:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:38:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:38:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:38:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[00:38:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:38:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:38:58] [Server thread/INFO]: Mob Spawn Range: 6
+[00:38:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:38:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:38:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[00:38:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:38:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:38:58] [Server thread/INFO]: Max TNT Explosions: 100
+[00:38:59] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:38:59] [Server thread/INFO]: View Distance: 6
+[00:38:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:38:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:38:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:38:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:38:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:38:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[00:38:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:38:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:38:59] [Server thread/INFO]: Mob Spawn Range: 6
+[00:38:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:38:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[00:38:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:38:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:38:59] [Server thread/INFO]: Max TNT Explosions: 100
+[00:38:59] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:38:59] [Server thread/INFO]: View Distance: 6
+[00:38:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:38:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:38:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:38:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:38:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:38:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[00:38:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:38:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:38:59] [Server thread/INFO]: Mob Spawn Range: 6
+[00:38:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:38:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:38:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[00:38:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:38:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:38:59] [Server thread/INFO]: Max TNT Explosions: 100
+[00:39:00] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[00:39:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:39:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:39:01] [Server thread/INFO]: Preparing spawn area: 0%
+[00:39:02] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:39:02] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[00:39:02] [Server thread/INFO]: Loaded 169 spawn chunks for world world
+[00:39:02] [Server thread/INFO]: Time elapsed: 2369 ms
+[00:39:02] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[00:39:02] [Server thread/INFO]: Preparing spawn area: 0%
+[00:39:02] [Server thread/INFO]: Preparing spawn area: 0%
+[00:39:03] [Server thread/INFO]: Loaded 169 spawn chunks for world world_nether
+[00:39:03] [Server thread/INFO]: Time elapsed: 726 ms
+[00:39:03] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[00:39:03] [Server thread/INFO]: Preparing spawn area: 0%
+[00:39:03] [Server thread/INFO]: Loaded 169 spawn chunks for world world_the_end
+[00:39:03] [Server thread/INFO]: Time elapsed: 297 ms
+[00:39:03] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.14.2*
+[00:39:03] [Server thread/INFO]: [CoreProtect] CoreProtect 已被成功启用!
+[00:39:03] [Server thread/INFO]: [CoreProtect] 使用 SQLite 储存数据.
+[00:39:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9-SNAPSHOT;no_git_id*
+[00:39:04] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:39:04] [Server thread/WARN]: [WorldEdit] 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and biome-related functions.
+**
+** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
+**********************************************
+
+[00:39:04] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.9.2
+[00:39:04] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:39:04] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:39:04] [Server thread/INFO]: [OneMore] Enabling OneMore v1.0.0*
+[00:39:04] [Server thread/INFO]: [OneMore] OneMore已经启用！
+[00:39:04] [Server thread/INFO]: [MCSign] Enabling MCSign v1.0.0*
+[00:39:04] [Server thread/INFO]: [MCSign] ServerPacket: 1141
+[00:39:04] [Server thread/INFO]: [MCSign] Find PlacholderAPI!
+[00:39:04] [Server thread/INFO]: [MCSign] Find Config.yml
+[00:39:04] [Server thread/INFO]: [MCSign] Find Message.yml
+[00:39:04] [Server thread/INFO]: [MCSign] 加载用时:24毫秒
+[00:39:04] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.0.6
+[00:39:04] [Server thread/INFO]: [ClearLag] Loading modules...
+[00:39:04] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[00:39:04] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[00:39:04] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[00:39:04] [Server thread/INFO]: [IllegalStack] Enabling IllegalStack v1.9.8a
+[00:39:04] [Server thread/INFO]: The following materials are allowed to have stacks larger than the vanilla size: POTION 
+[00:39:04] [Server thread/INFO]: [IllegalStack] Chat Components found!  Enabling clickable commands in /istack
+[00:39:04] [Server thread/INFO]: [Illegal Stack] - MC Version 1.14 detected!
+[00:39:04] [Server thread/INFO]: Blocking 1.14 villager trade cheesing.
+[00:39:04] [Server thread/INFO]: [FCommand] Enabling FCommand v1.0-SNAPSHOT*
+[00:39:04] [Server thread/INFO]: [GrItemTags] Enabling GrItemTags v1.0.8*
+[00:39:04] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[00:39:04] [Server thread/INFO]: 
+[00:39:04] [Server thread/INFO]:     __                      ____                                         _    _____
+[00:39:04] [Server thread/INFO]:    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+[00:39:04] [Server thread/INFO]:   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+[00:39:04] [Server thread/INFO]:  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+[00:39:04] [Server thread/INFO]: /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+[00:39:04] [Server thread/INFO]:             /____//____/
+[00:39:04] [Server thread/INFO]: 
+[00:39:04] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[00:39:04] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[00:39:04] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[00:39:04] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;1710-95b88ea*
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[00:39:04] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[00:39:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[00:39:04] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:39:04] [Server thread/WARN]: [WorldGuard] "WorldGuard v6.2.2-SNAPSHOT;1710-95b88ea" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.sk89q.worldguard.bukkit.listener.WorldGuardEntityListener.onCreatePortal(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [].
+[00:39:04] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.6.0-b738*
+[00:39:04] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v2.6.0-b738" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[00:39:05] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[00:39:05] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[00:39:05] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[00:39:05] [Server thread/WARN]: [Multiverse-Core] Exception while loading value for environment
+[00:39:05] [Server thread/INFO]: -------- World Settings For [sc] --------
+[00:39:05] [Server thread/INFO]: View Distance: 6
+[00:39:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:39:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:39:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:39:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:39:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:39:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[00:39:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:39:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:39:05] [Server thread/INFO]: Mob Spawn Range: 6
+[00:39:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:39:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:39:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[00:39:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:39:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:39:05] [Server thread/INFO]: Max TNT Explosions: 100
+[00:39:05] [Server thread/INFO]: [WorldGuard] (sc) TNT ignition is PERMITTED.
+[00:39:05] [Server thread/INFO]: [WorldGuard] (sc) Lighters are PERMITTED.
+[00:39:05] [Server thread/INFO]: [WorldGuard] (sc) Lava fire is blocked.
+[00:39:05] [Server thread/INFO]: [WorldGuard] (sc) Fire spread is UNRESTRICTED.
+[00:39:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'sc'
+[00:39:05] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: plotworld
+[00:39:05] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[00:39:05] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: dp
+[00:39:05] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[00:39:05] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[00:39:05] [Server thread/INFO]: [Multiverse-Core] Version 2.6.0-b738 (API v21) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[00:39:05] [Server thread/INFO]: [NotBoom] Enabling NotBoom v1.3*
+[00:39:05] [Server thread/INFO]: [NotBoom] 保护插件加载成功
+[00:39:05] [Server thread/INFO]: [iConomy] Enabling iConomy v7.0.6*
+[00:39:05] [Server thread/ERROR]: Error occurred while enabling iConomy v7.0.6 (Is it up to date?)
+java.lang.NoSuchMethodError: org.bukkit.Server.getServerName()Ljava/lang/String;
+	at com.iCo6.iConomy.onEnable(iConomy.java:101) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:338) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:474) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:282) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:869) ~[1.14.4.jar:git-Paper-146]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[00:39:05] [Server thread/INFO]: [iConomy] Disabling iConomy v7.0.6
+[00:39:05] [Server thread/ERROR]: Error occurred while disabling iConomy v7.0.6 (Is it up to date?)
+java.lang.NullPointerException: null
+	at com.iCo6.iConomy.onDisable(iConomy.java:276) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:373) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:453) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:474) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:282) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:869) ~[1.14.4.jar:git-Paper-146]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[00:39:05] [Server thread/INFO]: [CatSeedLogin] Enabling CatSeedLogin v1.0.0
+[00:39:05] [Server thread/INFO]: [CS-CoreLib] Enabling CS-CoreLib vv1.6.1
+[00:39:05] [Server thread/INFO]: [ScoreboardPlus] Enabling ScoreboardPlus v10*
+[00:39:05] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v1.31.12
+[00:39:05] [Server thread/INFO]: [MarriageMaster] Config Version: 28 => no update needed
+[00:39:05] [Server thread/INFO]: [MarriageMaster] Config loaded
+[00:39:05] [Server thread/INFO]: [MarriageMaster] Language Version: 19 => no update needed
+[00:39:06] [Server thread/INFO]: [MarriageMaster] Checking for updates ...
+[00:39:06] [Server thread/INFO]: [MarriageMaster] Marriage Master has been enabled!
+[00:39:06] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.3.1
+[00:39:06] [Server thread/INFO]: 
+[00:39:06] [Server thread/INFO]:  
+[00:39:06] [Server thread/INFO]: ******************************************************
+[00:39:06] [Server thread/INFO]:      This version of HolographicDisplays only
+[00:39:06] [Server thread/INFO]:      works on server versions from 1.8 to 1.13.1.
+[00:39:06] [Server thread/INFO]:      The plugin will be disabled.
+[00:39:06] [Server thread/INFO]: ******************************************************
+[00:39:06] [Server thread/INFO]: 
+[00:39:11] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v2.1.5-SNAPSHOT*
+[00:39:11] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.1*
+[00:39:11] [Server thread/INFO]: [ChestCommands] Hooked PlayerPoints
+[00:39:11] [Thread-14/WARN]: org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+[00:39:11] [Thread-14/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.validate(CraftScheduler.java:518)
+[00:39:11] [Thread-14/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:197)
+[00:39:11] [Thread-14/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:188)
+[00:39:11] [Thread-14/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.scheduleSyncRepeatingTask(CraftScheduler.java:183)
+[00:39:11] [Thread-14/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.scheduleSyncDelayedTask(CraftScheduler.java:147)
+[00:39:11] [Thread-14/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.scheduleSyncDelayedTask(CraftScheduler.java:116)
+[00:39:11] [Thread-14/WARN]: 	at com.gmail.filoghost.holographicdisplays.SimpleUpdater$1.run(SimpleUpdater.java:79)
+[00:39:11] [Thread-14/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[00:39:11] [Thread-14/WARN]: [HolographicDisplays] Unable to check for updates: unhandled exception.
+[00:39:11] [Server thread/INFO]: [Residence] Enabling Residence v4.8.6.6
+[00:39:15] [Server thread/INFO]: [Residence] Found Vault, but Vault reported no usable permissions system...
+[00:39:15] [Server thread/INFO]: [Residence] Permissions plugin NOT FOUND!
+[00:39:16] [Server thread/INFO]: [Residence] Scanning for economy systems...
+[00:39:16] [Server thread/INFO]: [Residence] Found Vault using economy: iConomy 
+[00:39:16] [Server thread/INFO]: [Residence] Loading save data for world world...
+[00:39:16] [Server thread/INFO]: [Residence] Loaded world data. (5 ms)
+[00:39:16] [Server thread/INFO]: [Residence] Loading save data for world world_nether...
+[00:39:16] [Server thread/INFO]: [Residence] Loaded world_nether data. (1 ms)
+[00:39:16] [Server thread/INFO]: [Residence] Loading save data for world world_the_end...
+[00:39:16] [Server thread/INFO]: [Residence] Loaded world_the_end data. (0 ms)
+[00:39:16] [Server thread/INFO]: [Residence] Loading save data for world sc...
+[00:39:16] [Server thread/INFO]: [Residence] Loaded sc data. (1 ms)
+[00:39:16] [Server thread/INFO]: [Residence] Loading world data into memory...
+[00:39:16] [Server thread/INFO]: [Residence] Loaded world data into memory. (0 ms)
+[00:39:16] [Server thread/INFO]: [Residence] Loading world_nether data into memory...
+[00:39:16] [Server thread/INFO]: [Residence] Loaded world_nether data into memory. (0 ms)
+[00:39:16] [Server thread/INFO]: [Residence] Loading world_the_end data into memory...
+[00:39:16] [Server thread/INFO]: [Residence] Loaded world_the_end data into memory. (0 ms)
+[00:39:16] [Server thread/INFO]: [Residence] Loading sc data into memory...
+[00:39:16] [Server thread/INFO]: [Residence] Loaded sc data into memory. (0 ms)
+[00:39:16] [Server thread/INFO]: [Residence] Found WorldEdit 6.1.9-SNAPSHOT;no_git_id
+[00:39:16] [Server thread/INFO]: [Residence] Found WorldGuard 6.2.2-SNAPSHOT;1710-95b88ea
+[00:39:16] [Server thread/INFO]: [Residence] PlaceholderAPI hooked.
+[00:39:16] [Server thread/INFO]: [Residence] PlaceholderAPI was found - Enabling capabilities.
+[00:39:16] [Server thread/INFO]: [Residence] Enabled! Version 4.8.6.6 by Zrips
+[00:39:16] [Server thread/INFO]: [JupiterCore] Enabling JupiterCore v1.2.3
+[00:39:16] [Server thread/INFO]:  
+[00:39:16] [Server thread/INFO]:  
+[00:39:16] [Server thread/INFO]:  
+[00:39:16] [Server thread/INFO]: -=-=-=-=-=-=-[   Plugin  Startup   ]-=-=-=-=-=-=-
+[00:39:16] [Server thread/INFO]: > Plugin: JupiterCore
+[00:39:16] [Server thread/INFO]: > Author: Jupiter-44
+[00:39:16] [Server thread/INFO]: > Version: 1.2.3
+[00:39:16] [Server thread/INFO]: > Server version: V1_14_R1 / OK!
+[00:39:16] [Server thread/INFO]: -=-=-=-=-=-=-[   Searching Hooks   ]-=-=-=-=-=-=-
+[00:39:16] [Server thread/INFO]: > Vault: Success!
+[00:39:16] [Server thread/INFO]: > MythicMobs: Not found.
+[00:39:16] [Server thread/ERROR]: Error occurred while enabling JupiterCore v1.2.3 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/sk89q/worldguard/WorldGuard
+	at su.jupiter44.jcore.hooks.external.WGHook.setup(WGHook.java:43) ~[?:?]
+	at su.jupiter44.jcore.hooks.JHook.hook(JHook.java:19) ~[?:?]
+	at su.jupiter44.jcore.hooks.HookManager.setup(HookManager.java:96) ~[?:?]
+	at su.jupiter44.jcore.JCore.enable(JCore.java:42) ~[?:?]
+	at su.jupiter44.jcore.JPlugin.loadManagers(JPlugin.java:203) ~[?:?]
+	at su.jupiter44.jcore.JPlugin.onEnable(JPlugin.java:89) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:338) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:474) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:282) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:869) ~[1.14.4.jar:git-Paper-146]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.WorldGuard
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_181]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:139) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[1.14.4.jar:git-Paper-146]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_181]
+	... 15 more
+[00:39:16] [Server thread/INFO]: [JupiterCore] Disabling JupiterCore v1.2.3
+[00:39:16] [Server thread/INFO]: Done (20.595s)! For help, type "help"
+[00:39:16] [Server thread/INFO]: Timings Reset
+[00:39:16] [Craft Scheduler Thread - 14/INFO]: [Vault] Checking for Updates ... 
+[00:39:16] [Craft Scheduler Thread - 10/INFO]: [CatSeedLogin] 缓存加载 3 个数据
+[00:39:16] [Server thread/WARN]: [CS-CoreLib] Task #28 for CS-CoreLib vv1.6.1 generated an exception
+java.lang.NoClassDefFoundError: com/sk89q/worldguard/WorldGuard
+	at me.mrCookieSlime.CSCoreLibPlugin.protection.modules.WorldGuardProtectionModule.<clinit>(WorldGuardProtectionModule.java:18) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.protection.ProtectionManager.<init>(ProtectionManager.java:37) ~[?:?]
+	at me.mrCookieSlime.CSCoreLibPlugin.CSCoreLib$2.run(CSCoreLib.java:115) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1147) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1074) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:918) ~[1.14.4.jar:git-Paper-146]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.WorldGuard
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_181]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:139) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[1.14.4.jar:git-Paper-146]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_181]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_181]
+	... 10 more
+[00:39:17] [Server thread/WARN]: [ScoreboardPlus] Task #29 for ScoreboardPlus v10 generated an exception
+java.lang.NoSuchMethodError: org.bukkit.Bukkit.getServerName()Ljava/lang/String;
+	at me.kaaseigenaar.scoreboard.Stats.connect(Stats.java:64) ~[?:?]
+	at me.kaaseigenaar.scoreboard.Stats.lambda$init$0(Stats.java:50) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[1.14.4.jar:git-Paper-146]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1147) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1074) ~[1.14.4.jar:git-Paper-146]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:918) ~[1.14.4.jar:git-Paper-146]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+[00:39:17] [Server thread/INFO]: #####################################
+[00:39:17] [Server thread/INFO]: Marriage Master V2 has been released! :)
+[00:39:17] [Server thread/INFO]: Please download it form here: https://www.spigotmc.org/resources/19273/
+[00:39:17] [Server thread/INFO]: #####################################
+[00:39:17] [Server thread/INFO]: [ChestCommands] Found a new version: v3.2.0 (yours: v3.1.1)
+[00:39:17] [Server thread/INFO]: [ChestCommands] Download it on Bukkit Dev:
+[00:39:17] [Server thread/INFO]: [ChestCommands] dev.bukkit.org/bukkit-plugins/chest-commands
+[00:39:21] [Craft Scheduler Thread - 14/INFO]: [Vault] No new version available

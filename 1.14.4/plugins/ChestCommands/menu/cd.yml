@@ -1,0 +1,348 @@
+
+menu-settings:
+  name: "&6&l[\u68A6\u5E7B\u65B9\u5757]\u751F\u5B58\u670D\u4E3B\u83DC\u5355"
+  rows: 3
+  command: "cd"
+  open-with-item:
+    id: 347
+    item-id: 347
+    right-click: true
+TreeDiagramA1:
+  NAME: "&a&l>>&d&l[+]\u56DE\u57CE[+]&a&l<<[+]"
+  ID: 138
+  ENCHANTMENT: "EFFICIENCY,10"
+  COMMAND: "op:spawn"
+  POSITION-X: 1
+  POSITION-Y: 1
+TreeDiagramA2:
+  NAME: "&a&l>>&d&l[+]\u751F\u5B58\u4E16\u754C[+]&a&l<<[+]"
+  LORE:
+    - "&e&b&l>>>  &a&l[v]&6\u70B9\u51FB\u524D\u5F80\u751F\u5B58\u4E16\u754C&a&l>>>"
+  ID: 2
+  ENCHANTMENT: "EFFICIENCY,10"
+  COMMAND: "op:mv tp sc"
+  POSITION-X: 2
+  POSITION-Y: 1
+TreeDiagramA5:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 5
+  POSITION-Y: 1
+v130WW81:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 1
+  POSITION-Y: 2
+TreeDiagramB2:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 2
+  POSITION-Y: 2
+v13081:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 3
+  POSITION-Y: 2
+q15155:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 4
+  POSITION-Y: 2
+TreeDiagramB5:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 5
+  POSITION-Y: 2
+i17626:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 6
+  POSITION-Y: 2
+p28023:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 7
+  POSITION-Y: 2
+k148d31:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 8
+  POSITION-Y: 2
+d22490:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 9
+  POSITION-Y: 2
+TreeDiagramC2:
+  NAME: "&b&l[++]&b&l\u724C\u5B50\u9501\u63D2\u4EF6\u4F7F\u7528\u5E2E\u52A9&b&l[++]"
+  LORE:
+    - "&e&L&m\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00"
+    - "&e&l>>>  &a&l[v]&b\u624B\u6301\u6728\u724C\uFF0C\u5728\u7BB1\u5B50\u7684\u4FA7\u9762\u76F4\u63A5\u6309\u53F3\u952E"
+    - "&e&l>>>  &a&l[v]&b\u652F\u6301\u9501\u7684\u7269\u54C1\uFF1A"
+    - "&E&l>>>  &A&l[v]&b\u7BB1\u5B50\uFF0C\u53D1\u5C04\u5668\uFF0C\u7194\u7089\uFF0C\u95E8\uFF0C\u6F0F\u6597\u7B49\u5BB9\u5668\u3002"
+    - "&e&l>>>  &a&L[v]&b\u7136\u540E\u4E0D\u7528\u5199\u4E1C\u897F\uFF0C\u76F4\u63A5\u70B9&6[\u5B8C\u6210]&b\u5C31\u53EF\u4EE5"
+    - "&e&l>>>  &A&l[v]&b\u5F53\u4F60\u60F3\u7ED9\u4F60\u7684\u670B\u53CB\u6743\u9650\u7684\u8BDD"
+    - "&e&l>>>  &a&l[v]&b\u53F3\u952E\u5DF2\u7ECF\u4E0A\u9501\u4E86\u7684\u724C\u5B50"
+    - "&e&l>>>  &a&l[v]&b\u8F93\u5165&c/lockette 3 <ID>\uFF0C&b\u8FD9\u6837\u5C31\u53EF\u4EE5\u4E86~"
+    - "&e&l>>>  &a&l[v]&cTips:&b\u7528\u724C\u5B50\u9501\u94C1\u95E8\u4E0D\u9700\u8981\u6309\u94AE\u5C31\u53EF\u4EE5\u6253\u5F00\u54E6~"
+    - "&e&l>>>  &a&l[v]&b\u5B8C\u6210~~~~&6/lockette&b\u67E5\u770B\u6307\u4EE4\u5E2E\u52A9\uFF01"
+    - "&e&L&m\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00"
+  ID: 387
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+TreeDiagramC4:
+  NAME: "&b&l[++]&b&l\u6307\u4EE4\u767E\u79D1&b&l[++]"
+  LORE:
+    - "&e&L&m\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00"
+    - "&e&l>>>  &a&l[v]&6\u56DE\u57CE          &a&l>>>   &b/spawn"
+    - "&e&l>>>  &a&l[v]&6\u63A5\u53D7\u4F20\u9001      &a&l>>>   &b/\u63A5\u53D7\u4F20\u9001"
+    - "&e&l>>>  &a&l[v]&6\u62D2\u7EDD\u4F20\u9001      &a&l>>>   &b/\u62D2\u7EDD\u4F20\u9001"
+    - "&e&l>>>  &a&l[v]&6\u4F20\u9001\u5230\u67D0\u9886\u5730  &a&l>>>   &b/res tp <\u9886\u5730\u540D\u5B57>"
+    - "&e&l>>>  &a&l[v]&6\u968F\u673A\u4F20\u9001      &a&l>>>   &b/tpr"
+    - "&e&L&m\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00"
+  ID: 387
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+f175ead212:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 5
+  POSITION-Y: 3
+TreeDiagramC7:
+  NAME: "&e&l>>>&b&l[++]&d\u56DE\u5BB6&b&l[++]&e&l<<<"
+  LORE:
+    - "&e&l>>>   &b\u70B9\u51FB\u56DE\u5230\u4F60\u8BBE\u7F6E\u7684\u5BB6"
+    - "&e&l>>>   &b\u6267\u884C\u547D\u4EE4\uFF1A&6/home"
+  ID: 76
+  DATA-VALUE: 0
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  ENCHANTMENT: "PUNCH,10"
+  COMMAND: "home"
+  POSITION-X: 7
+  POSITION-Y: 3
+TreeDiagramC8:
+  NAME: "&e&l>>>&b&l[++]&d\u8BBE\u7F6E\u5BB6&b&l[++]&e&l<<<"
+  LORE:
+    - "&e&l>>>   &b\u70B9\u51FB\u8BBE\u7F6E\u4F60\u7684\u5BB6"
+    - "&e&l>>>   &b\u6267\u884C\u547D\u4EE4\uFF1A&6/sethome"
+  ID: 86
+  DATA-VALUE: 0
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  COMMAND: "sethome"
+  AMOUNT: 2
+  POSITION-X: 8
+  POSITION-Y: 3
+TreeDiagramC9:
+  NAME: "&e&l>>>&b&l[++]&d\u5220\u9664\u5BB6&b&l[++]&e&l<<<"
+  LORE:
+    - "&e&l>>>   &b\u70B9\u51FB\u5220\u9664\u4F60\u8BBE\u7F6E\u7684\u5BB6"
+    - "&e&l>>>   &b\u6267\u884C\u547D\u4EE4\uFF1A&6/delhome"
+  ID: 86
+  DATA-VALUE: 0
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  COMMAND: "delhome home"
+  AMOUNT: 3
+  POSITION-X: 9
+  POSITION-Y: 3
+f175ead21:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 1
+  POSITION-Y: 4
+j29900:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 2
+  POSITION-Y: 4
+x12298:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 3
+  POSITION-Y: 4
+n1527dd0:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 4
+  POSITION-Y: 4
+TreeDiagramD5:
+  NAME: "&e&l>>>&b&l\u4E2A\u4EBA\u4FE1\u606F&e&l<<<"
+  LORE:
+    - "&e&L&m\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00"
+    - "&e&l>>>  &a&l[v]&4&l&n <{player}>&e\u4E2A\u4EBA\u4FE1\u606F"
+    - "&e&l>>>  &a&l[v]&b\u6211\u7684\u70B9\u5238: {points}"
+    - "&e&l>>>  &a&l[v]&b\u6211\u7684\u91D1\u5E01: {money}"
+    - "&e&l>>>  &a&l[v]&b\u70B9\u51FB\u67E5\u770B\u6211\u7684\u7ECF\u9A8C"
+    - "&e&L&m\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00"
+  ID: 381
+  DATA-VALUE: 0
+  COMMAND: "op:xp"
+  POSITION-X: 5
+  POSITION-Y: 4
+TreeDiagramD6:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 6
+  POSITION-Y: 4
+s5581:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 7
+  POSITION-Y: 4
+s558d1:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 8
+  POSITION-Y: 4
+o4643:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  AMOUNT: 1
+  KEEP-OPEN: false
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 9
+  POSITION-Y: 4
+TreeDiagramE3:
+  NAME: "&a\u91D1\u5E01\u5546\u5E97                    "
+  LORE:
+    - "&E&l>>> &b&m\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00"
+    - "&E&l>>> &b\u6253\u5F00\u91D1\u5E01\u5546\u5E97"
+    - "&E&l>>> &b&m\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00\u4E00"
+  ID: 264
+  KEEP-OPEN: true
+  COMMAND: "op:shopsell"
+  POSITION-X: 3
+  POSITION-Y: 5
+TreeDiagramE5:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 5
+  POSITION-Y: 5
+TreeDiagramF5:
+  NAME: "&e&l>>>&f&l\u5206\u5272\u677F&e&l<<<"
+  ID: 160
+  DATA-VALUE: 6
+  PRICE: 0
+  POINTS: 0
+  LEVELS: 0
+  POSITION-X: 5
+  POSITION-Y: 6
+TreeDiagramF9:
+  NAME: "&a&l>>&d&l[+]\u9000\u51FA\u4E3B\u83DC\u5355[+]&a&l<<[+]"
+  ID: 30
+  POSITION-X: 9
+  POSITION-Y: 6

@@ -1,0 +1,3 @@
+command: cd
+delay: '3'
+iscooldown: '&7[&aFMR娘&7] &c你按的太快了, 请慢点'

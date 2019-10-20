@@ -1,0 +1,674 @@
+########## Horizon Config ##########
+# Welcome to Horizon's configuration file.
+# Before changing anything, please note that all settings has been tested.
+# It is recommended not to change any settings if it is not necessary.
+#
+# Issue-Tracker: https://github.com/CraftG/Horizon/issues
+# Discord: https://discord.gg/s8RyWzJ
+# I hope you have a good time here.
+####################################
+
+settings:
+  # Do you want to enable the tps protection?
+  # This will not just only disable checks when the tps is low.
+  # Instead, it will intelligently reduce the execution interval of loop tasks.
+  tps_protection: true
+
+log:
+  file: true
+
+checks:
+  elytrafly:
+    # Do you want to enable the ElytraFly check?
+    enabled: true
+
+    cancel_vl: 10
+
+    disable_world: []
+
+    modules:
+      # The Expect check will predict player's y-axis movement distance
+      # and confirm that it meets the Minecraft's movement rules.
+      # This will add 1 vl if player moves unexpectedly.
+      Expect:
+        enabled: true
+        # The max tolerance.
+        # To reduce false positives, of course.
+        # Higher -> More lenient
+        # Lower -> More strict
+        tolerance: 0.3
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        60:
+          - horizon kick %player% Access denied.
+
+  fly:
+    # Do you want to enable the Fly check?
+    enabled: true
+
+    cancel_vl: 8
+
+    disable_world: []
+
+    modules:
+      # The Expect check will predict player's y-axis movement distance
+      # and confirm that it meets the Minecraft's movement rules.
+      # This will add 1 vl if player moves unexpectedly.
+      Expect:
+        enabled: true
+        # The max tolerance.
+        # To reduce false positives, of course.
+        # Higher -> More lenient
+        # Lower -> More strict
+        tolerance: 0.01
+
+      # The GounrdSpoof check will prevent player from spoofing movement packet.
+      # This will add 1 vl if player moves illegally.
+      GroundSpoof:
+        enabled: true
+
+      # The Climb check will prevent player from using some types of WallClimb hack.
+      # This will add 3 vl if player is detected.
+      Climb:
+        enabled: true
+
+      # The AirLadder check will prevent player from climbing when there's no block neared to vines/ladders.
+      # This will add 3 vl if player moves illegally.
+      AirLadder:
+        enabled: true
+
+      # The Pattern check will check player's y-axis movement
+      # and compare to a known Step pattern to stop some Step hack.
+      # This will add 2 vl if player is detected.
+      Pattern:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        100:
+          - horizon kick %player% Access denied.
+
+  liquidwalk:
+    # Do you want to enable the LiquidWalk check?
+    enabled: true
+
+    cancel_vl: 10
+
+    disable_world: []
+
+    modules:
+      # The Jump check will check player's y-axis movement in water.
+      # This will add 2 vl if player is detected.
+      Jump:
+        enabled: true
+
+      # The Jump check will check player's y-axis movement in water.
+      # This will add 2 vl if player is detected.
+      Hover:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        50:
+          - horizon kick %player% Access denied.
+
+  phase:
+    # Do you want to enable the Phase check?
+    enabled: true
+
+    cancel_vl: 1
+
+    disable_world: []
+
+    modules:
+      # The Collision check will prevent player from walking through blocks.
+      # This will add 3 vl if player is detected.
+      Collision:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        30:
+          - horizon kick %player% Access denied.
+
+  speed:
+    # Do you want to enable the Speed check?
+    enabled: true
+
+    cancel_vl: 8
+
+    disable_world: []
+
+    modules:
+      # The Expect check will predict player's x/z-axis movement distance
+      # and confirm that it meets the Minecraft's movement rules.
+      # This will add 3 vl if player moves unexpectedly.
+      Expect:
+        enabled: true
+        # The max tolerance.
+        # To reduce false positives, of course.
+        # Higher -> More lenient
+        # Lower -> More strict
+        tolerance: 0.1
+
+      # The Limit check will give a highest speed to various situations and compare it to player's movement.
+      # This will add 2 vl if player moves too fast.
+      Limit:
+        enabled: true
+
+      # The Sprint check will check player's moving direction when sprinting.
+      # This will add 2 vl if player moves illegally.
+      Sprint:
+        enabled: true
+
+      # The Ground check will prevent player from moving too fast on ground.
+      # This will add 2 vl if player moves too fast.
+      Ground:
+        enabled: true
+        limit: 0.420001
+
+      # The Ground check will check player's y-axis movement on ladder.
+      # This will add 1 vl if player moves too fast.
+      Ladder:
+        enabled: true
+        # The max speed for players to climb up ladders.
+        up: 0.13
+        # The max speed for players to climb down ladders.
+        down: -0.16
+
+      # The Hop check will check player's y-axis movement when walking.
+      # This will add 1 vl if player moves illegally.
+      Hop:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        90:
+          - horizon kick %player% Access denied.
+
+  strafe:
+    # Do you want to enable the Strafe check?
+    enabled: true
+
+    cancel_vl: 6
+
+    disable_world: []
+
+    modules:
+      # The Limit check will prevent player from changing their move direction in the air.
+      # This will add 2 vl if player moves illegally.
+      Limit:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        60:
+          - horizon kick %player% Access denied.
+
+  vehiclemove:
+    # Do you want to enable the VehicleMove check?
+    enabled: true
+
+    cancel_vl: 8
+
+    disable_world: []
+
+    modules:
+      # The Speed check will prevent player from moving too fast when riding a pig.
+      # This will add 2 vl if player moves too fast.
+      Speed:
+        enabled: true
+
+      # The BoatFly check will prevent player from using BoatFly hacks.
+      # This will add 2 vl if player moves illegally.
+      BoatFly:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        50:
+          - horizon kick %player% Access denied.
+
+  combatanalysis:
+    # Do you want to enable the CombatAnalysis check?
+    enabled: true
+
+    cancel_vl: 2
+
+    disable_world: []
+
+    modules:
+      # The Pattern check will collect player's behavior in combat
+      # and compare them to known data.
+      # This will add 2 vl if player failed this check.
+      Pattern:
+        enabled: true
+
+      # The Click check will analysis player's click rate in combat.
+      # This will add 3 vl if player failed this check.
+      Click:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        12:
+          - horizon kick %player% Access denied.
+
+  forcefield:
+    # Do you want to enable the ForceField check?
+    enabled: false
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    modules:
+      # The Bot check will spawn a fake entity behind player to prevent some bad killaura/aimbot hacks.
+      # This will add 2 vl if player is detected.
+      Bot:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        25:
+          - horizon kick %player% Access denied.
+
+  killaura:
+    # Do you want to enable the KillAura check?
+    enabled: true
+
+    cancel_vl: 1
+
+    disable_world: []
+
+    modules:
+      # The Direction check will check player's rotation accuracy.
+      # This will add 4 vl if player is detected.
+      Direction:
+        enabled: true
+
+      # The MultiAction check will prevent player from using item when hitting.
+      # This will add 4 vl if player is detected.
+      MultiAction:
+        enabled: true
+
+      # The Reach check will prevent player from reaching too far.
+      # This will add 2 vl if player is detected.
+      Reach:
+        enabled: true
+        max_reach: 3.2
+
+      # The Rotation check will analysis player's head rotation in combat.
+      # This will add 2 vl if player is detected.
+      Rotation:
+        enabled: true
+
+      # The Heuristic check will analysis player's head rotation in combat.
+      # This will add 2 vl if player is detected.
+      Heuristic:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        25:
+          - horizon kick %player% Access denied.
+
+  scaffold:
+    # Do you want to enable the Scaffold check?
+    enabled: true
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    block_time: 2000
+
+    modules:
+      # The Rotation check will analysis player's head rotation when building bridge.
+      # This will add 2 vl if player is detected.
+      Rotation:
+        enabled: true
+
+      # The Math check will use a simple algorithm to prevent some bad scaffold/expand hacks.
+      # This will add 3 vl if player is detected.
+      Math:
+        enabled: true
+
+      # The Normal check will use a simple algorithm to prevent some bad scaffold hacks.
+      # This will add 2 vl if player is detected.
+      Normal:
+        enabled: true
+
+      # The Rotation check will analysis player's head rotation when building bridge.
+      # This will add 2 vl if player is detected.
+      Heuristic:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        20:
+          - horizon kick %player% Access denied.
+
+  fastbreak:
+    # Do you want to enable the FastBreak check?
+    enabled: true
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    block_time: 2000
+
+    modules:
+      # The Limit check will predict player's breaking speed
+      # and confirm that it meets the Minecraft's rules.
+      # This will add 2 vl if player is detected.
+      Limit:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        25:
+          - horizon kick %player% Access denied.
+
+  fastplace:
+    # Do you want to enable the FastPlace check?
+    enabled: true
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    block_time: 2000
+
+    modules:
+      # The Limit check will prevent player from placing too many blocks in one second.
+      # This will add 2 vl if player is detected.
+      Limit:
+        enabled: true
+        # The max number of blocks a player can place in one second
+        max_places_per_sec: 12
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        16:
+          - horizon kick %player% Access denied.
+
+  interact:
+    # Do you want to enable the Interact check?
+    enabled: true
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    modules:
+      # The Hitbox check will prevent player from using BedAura hacks.
+      # This will add 4 vl if player is detected.
+      Hitbox:
+        enabled: true
+        lenient: true
+
+      # The Reach check will prevent player from breaking/placing block too far.
+      # This will add 2 vl if player is detected.
+      Reach:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        16:
+          - horizon kick %player% Access denied.
+
+  tower:
+    # Do you want to enable the Tower check?
+    enabled: true
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    modules:
+      # The Rotation check will prevent player from using slow tower hacks.
+      # This will add 3 vl if player is detected.
+      Rotation:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        20:
+          - horizon kick %player% Access denied.
+
+  fastbow:
+    # Do you want to enable the FastBow check?
+    enabled: true
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    modules:
+      # The Expect check will predict player's bowing speed
+      # and confirm that it meets the Minecraft's rules.
+      # This will add 1 vl if player shoot bow too fast.
+      Expect:
+        enabled: true
+        threshold: 0.249
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        25:
+          - horizon kick %player% Access denied.
+
+  nofall:
+    # Do you want to enable the NoFall check?
+    enabled: true
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    modules:
+      # The Packet check will prevent player from using packet-based NoFall hacks.
+      # This will add 2 vl if player shoot bow too fast.
+      Packet:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        30:
+          - horizon kick %player% Access denied.
+
+  timer:
+    # Do you want to enable the Timer check?
+    enabled: true
+
+    cancel_vl: 6
+
+    disable_world: []
+
+    modules:
+      # The Interval check will check the interval of two movement packet from player.
+      # This will add 1 vl if player shoot bow too fast.
+      Interval:
+        enabled: true
+        min_interval: 49
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        60:
+          - horizon kick %player% Access denied.
+
+  antiknockback:
+    # Do you want to enable the AntiKnockback check?
+    enabled: true
+
+    cancel_vl: 2
+
+    disable_world: []
+
+    modules:
+      # The Expect check will predict player's movement distance
+      # and confirm that it meets the Minecraft's knockback rules.
+      # This will add 1 vl if player moves unexpectedly.
+      Expect:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        15:
+          - horizon kick %player% Access denied.
+
+  criticals:
+    # Do you want to enable the Criticals check?
+    enabled: true
+
+    cancel_vl: 3
+
+    disable_world: []
+
+    modules:
+      # The MiniJump check will prevent player from doing mini jump in combat.
+      # This will add 2 vl if player moves illegally.
+      MiniJump:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        25:
+          - horizon kick %player% Access denied.
+
+  badpackets:
+    # Do you want to enable the BadPackets check?
+    enabled: true
+
+    cancel_vl: 1
+
+    disable_world: []
+
+    modules:
+      # The CustomPayload check will prevent player from sending bad custom-payload packets.
+      # This will add 5 vl if player is detected.
+      CustomPayload:
+        enabled: true
+        min_check_size: 30000
+
+      # The MassiveChunk check will prevent player from sending bad chunk packets.
+      # This will add 5 vl if player is detected.
+      MassiveChunk:
+        enabled: true
+
+      # The Derp check will prevent player from sending bad rotation packets.
+      # This will add 4 vl if player is detected.
+      Derp:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified:
+        1:
+          - horizon kick %player% Access denied.
+
+  viewplugin:
+    # Do you want to enable the ViewPlugin check?
+    enabled: true
+
+    cancel_vl: 1
+
+    disable_world: []
+
+    modules:
+      # The TabComplete check will prevent player from using hack clients to view your plugins.
+      # This will also prevent player from typing '/ + TAB'
+      # This will not add any vl.
+      TabComplete:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified: {}
+
+  freecam:
+    # Do you want to enable the Freecam check?
+    enabled: true
+
+    cancel_vl: 4
+
+    disable_world: []
+
+    modules:
+      # The Teleport check will teleport players to their location
+      # when they're standing still to prevent some Freecam/Blink hacks
+      # This will not add any vl.
+      Teleport:
+        enabled: true
+
+      # The Packet check will prevent player from delaying some packets.
+      # This will not add any vl.
+      Packet:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified: {}
+  tracer:
+    # Do you want to enable the Tracer check?
+    enabled: true
+
+    cancel_vl: 1
+
+    disable_world: []
+
+    modules:
+      # The Packet check will prevent player from using Tracer/ESP hacks.
+      # This will not add any vl.
+      PlayerHider:
+        enabled: true
+
+    action:
+      ==: ActionMap
+      everyTime: []
+      specified: {}

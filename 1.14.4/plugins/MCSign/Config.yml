@@ -1,0 +1,11 @@
+SQL:
+  Enabled: false
+  DataBaseName: 'null'
+  Host: 127.0.0.1
+  Port: 3306
+  User: root
+  Password: password
+TimeFormat: yy年MM月dd日 HH:mm
+SignCommand:
+- '[CONSOLE]give %player% 264 5'
+- '[MESSAGE]你领取了&6钻石*5'

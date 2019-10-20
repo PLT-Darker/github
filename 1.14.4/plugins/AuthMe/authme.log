@@ -1,0 +1,116 @@
+[04-27 16:47:36]: [INFO] Created column 'regdate' and set the current timestamp, 1556354856026, to all 0 rows
+[04-27 16:47:36]: [INFO] SQLite Setup finished
+[04-27 16:47:36]: [INFO] No supported permissions system found! Permissions are disabled!
+[04-27 16:47:36]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+[04-27 16:47:36]: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:56)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:248)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:136)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:346)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:408)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:458)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:372)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:440)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:758)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 16 more
+Caused by: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.mail.EmailService'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.newInstance(InjectorImpl.java:82)
+	at fr.xephi.authme.initialization.factory.FactoryDependencyHandler$FactoryImpl.newInstance(FactoryDependencyHandler.java:41)
+	at fr.xephi.authme.command.CommandHandler.initializeCommands(CommandHandler.java:109)
+	at fr.xephi.authme.command.CommandHandler.<init>(CommandHandler.java:49)
+	... 21 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 39 more
+Caused by: java.lang.NoSuchMethodError: org.bukkit.Server.getServerName()Ljava/lang/String;
+	at fr.xephi.authme.mail.EmailService.<init>(EmailService.java:33)
+	... 44 more
+
+[04-27 16:47:36]: [WARN] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
+[04-27 16:47:36]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[04-27 16:48:07]: [INFO] SQLite Setup finished
+[04-27 16:48:07]: [INFO] No supported permissions system found! Permissions are disabled!
+[04-27 16:48:07]: [WARN] Aborting initialization of AuthMe: [InjectorReflectionException]: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+[04-27 16:48:07]: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.command.CommandHandler'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.getSingleton(InjectorImpl.java:56)
+	at fr.xephi.authme.AuthMe.instantiateServices(AuthMe.java:248)
+	at fr.xephi.authme.AuthMe.initialize(AuthMe.java:221)
+	at fr.xephi.authme.AuthMe.onEnable(AuthMe.java:136)
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:346)
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:408)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:458)
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:372)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:440)
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258)
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:758)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 16 more
+Caused by: fr.xephi.authme.libs.jalu.injector.exceptions.InjectorReflectionException: Could not invoke constructor of class 'class fr.xephi.authme.mail.EmailService'
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:94)
+	at fr.xephi.authme.libs.jalu.injector.handlers.instantiation.StandardInjection.instantiateWith(StandardInjection.java:62)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:181)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.get(InjectorImpl.java:155)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.resolveDependencies(InjectorImpl.java:208)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.instantiate(InjectorImpl.java:177)
+	at fr.xephi.authme.libs.jalu.injector.InjectorImpl.newInstance(InjectorImpl.java:82)
+	at fr.xephi.authme.initialization.factory.FactoryDependencyHandler$FactoryImpl.newInstance(FactoryDependencyHandler.java:41)
+	at fr.xephi.authme.command.CommandHandler.initializeCommands(CommandHandler.java:109)
+	at fr.xephi.authme.command.CommandHandler.<init>(CommandHandler.java:49)
+	... 21 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at fr.xephi.authme.libs.jalu.injector.utils.ReflectionUtils.newInstance(ReflectionUtils.java:91)
+	... 30 more
+Caused by: java.lang.NoSuchMethodError: org.bukkit.Server.getServerName()Ljava/lang/String;
+	at fr.xephi.authme.mail.EmailService.<init>(EmailService.java:33)
+	... 35 more
+
+[04-27 16:48:07]: [WARN] THE SERVER IS GOING TO SHUT DOWN AS DEFINED IN THE CONFIGURATION!
+[04-27 16:48:07]: [INFO] AuthMe 5.4.0-b1877 disabled!

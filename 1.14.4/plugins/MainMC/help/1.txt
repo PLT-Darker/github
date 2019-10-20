@@ -1,0 +1,13 @@
+&6|--------------------唔姆！指令帮助来啦！--------------------|
+&1               话说回来 是可以用tab补全玩家名的哟
+&1TPA: &6/tpa <player>. 询问目标玩家是否接受你的传送请求www.
+&1SPAWN: &6/spawn. 把你咻的一声传送回主城.
+&1WARP: &6/warp <warp>. 将您传送至一个特定的目标点. 
+&1PAY: &6/pay <player> <ammount>. 和一个玩家进行&mpy&r,好了说到底其实就是转账啊.
+&1AFK: &6/afk. 让你在服务器内显示处于挂机状态.
+&&1HELPSTAFF: &6/helpstaff <message>. （卡住了?被骗了?有bug?）向在线的op发送信息.
+&1IGNORE: &6/igonre <player>. 无视某玩家&m牧中无人
+&1MAIL: &6/mail <read/clear/send>. 唔？用我来 阅读/清理/发送 一条邮件
+&1MSG: &6/msg <player> <message>. 往目标玩家的私有邮箱里丢一封信
+&1SUICIDE: &6/suicide. 我 杀 我 自 己！.
+#&c你可以把其他插件的指令丢在这里一并显示哟

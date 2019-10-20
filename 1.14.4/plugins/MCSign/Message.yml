@@ -1,0 +1,13 @@
+Player:
+  SignYes: '&8[&d签到&8] &a签到成功! 已经连续签到 &6{0} &a天!'
+  SignNo: '&8[&d签到&8] &c你今天已经签过了!'
+Admin:
+  NoPermissionCommand: '&8[&d签到&8] &c你没有权限执行此指令'
+  NoCommand: '&8[&d签到&8] &c未找到此子指令:{0}'
+  NoFormat: '&8[&d签到&8] &c格式错误!'
+  NoOnline: '&8[&d签到&8] &c玩家不在线或玩家不存在!'
+  NoConsole: '&8[&d签到&8] &c控制台不允许执行此指令!'
+  PluginReload: '&8[&d签到&8] §c插件已重载'
+Command:
+  sign: 每日签到
+  reload: 重新加载这个插件的配置
